@@ -1,6 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Header from './components/Header.vue'
+</script>
 
 <template>
+  <Header />
   <main class="main">
     <RouterView />
   </main>
@@ -11,9 +14,9 @@
   display: flex;
   flex-grow: 1;
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 46px auto 0 auto;
   width: 100%;
   background-color: white;
-  padding: 15px;
+  max-width: 1000px;
 }
 </style>
